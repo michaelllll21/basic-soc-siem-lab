@@ -47,12 +47,13 @@ This lab is designed to build foundational blue-team cybersecurity skills for en
 | 4732 | User added to a security-enabled local group |
 
 ## Lab Activities
-- Generate failed login attempts
-- Locate failed login events in Event Viewer
-- Verify successful login events
-- Review domain user activity
-- Document event IDs and findings
-- Create a basic incident report
+- Generated failed login attempts
+- Located failed login events in Event Viewer
+- Verified successful login events
+- Reviewed domain user account activity
+- Detected user account creation
+- Detected account lockout activity
+- Documented findings in a basic incident report
 
 ## Documentation
 - [Lab Environment](documentation/lab-environment.md)
@@ -85,7 +86,7 @@ This lab is designed to build foundational blue-team cybersecurity skills for en
 ![Account Unlock Verification](screenshots/07-unlock-account-aduc.png)
 
 ## Project Status
-In progress.
+Completed.
 
 ## Resume Summary
-Built and documented a basic SOC/security monitoring lab using Windows Event Viewer, Windows Security logs, failed logon events, successful logon events, and incident documentation. Practiced identifying security-related event IDs and creating basic incident reports.
+Built and documented a basic SOC/security monitoring lab using Windows Event Viewer, Windows Security logs, failed logon events, successful logon events, user account creation events, account lockout events, and incident documentation. Practiced identifying security-related Windows Event IDs and creating basic incident response documentation.
