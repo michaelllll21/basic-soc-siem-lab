@@ -46,13 +46,6 @@ A successful domain user login was verified using Event ID 4624.
 
 ---
 
- on.  
-**Result:** Success
-
-![Successful Logon Event 4624](../screenshots/03-successful-logon-event-4624.png)
-
----
-
 ## User Account Creation Test
 
 A new domain user account was created in Active Directory Users and Computers. The activity was detected using Event ID 4720.
@@ -73,7 +66,7 @@ Multiple failed login attempts were generated until the Helpdesk account became 
 **Description:** A user account was locked out.  
 **Result:** Success
 
-![Account Locked Out Login Message](../screenshots/05-account-locked-out-login-message.png)
+![Account Locked Out Message](../screenshots/05-account-locked-out-login-message.png)
 
 ![Account Lockout Event 4740](../screenshots/06-account-lockout-event-4740.png)
 
@@ -83,7 +76,7 @@ Multiple failed login attempts were generated until the Helpdesk account became 
 
 The locked Helpdesk account was unlocked using Active Directory Users and Computers.
 
-![Unlock Account in ADUC](../screenshots/07-unlock-account-aduc.png)
+![Account Unlock Verification](../screenshots/07-unlock-account-aduc.png)
 
 ---
 
