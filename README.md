@@ -62,7 +62,27 @@ This lab is designed to build foundational blue-team cybersecurity skills for en
 - [Troubleshooting Notes](documentation/troubleshooting-notes.md)
 
 ## Evidence Screenshots
-Screenshots will be added after completing the lab activities.
+
+### Event Viewer Security Log
+![Event Viewer Security Log](screenshots/01-event-viewer-security-log.png)
+
+### Failed Logon Event - 4625
+![Failed Logon Event 4625](screenshots/02-failed-logon-event-4625.png)
+
+### Successful Logon Event - 4624
+![Successful Logon Event 4624](screenshots/03-successful-logon-event-4624.png)
+
+### User Account Created Event - 4720
+![User Created Event 4720](screenshots/04-user-created-event-4720.png)
+
+### Account Locked Out Message
+![Account Locked Out Message](screenshots/05-account-locked-out-login-message.png)
+
+### Account Lockout Event - 4740
+![Account Lockout Event 4740](screenshots/06-account-lockout-event-4740.png)
+
+### Account Unlock Verification
+![Account Unlock Verification](screenshots/07-unlock-account-aduc.png)
 
 ## Project Status
 In progress.
