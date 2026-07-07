@@ -85,6 +85,46 @@ This lab is designed to build foundational blue-team cybersecurity skills for en
 ### Account Unlock Verification
 ![Account Unlock Verification](screenshots/07-unlock-account-aduc.png)
 
+## Phase 2: Wazuh SIEM Monitoring
+
+This phase expands the lab by deploying Wazuh SIEM to collect and monitor Windows security logs from domain endpoints.
+
+### Wazuh Lab Environment
+
+| Device | Role | IP Address | Purpose |
+|---|---|---|---|
+| Wazuh-Server | Wazuh SIEM Server | 192.168.10.50 | Collects and analyzes security logs |
+| Server2022 | Domain Controller / Wazuh Agent | 192.168.10.10 | Generates domain security events |
+| Desktop1 | Windows Endpoint / Wazuh Agent | 192.168.10.x | Generates Windows logon events |
+
+### Wazuh Monitoring Activities
+
+- Installed and configured Wazuh Server on Ubuntu Server
+- Added Windows 10 Desktop1 as a Wazuh agent
+- Added Windows Server 2022 Domain Controller as a Wazuh agent
+- Detected failed logon events using Event ID 4625
+- Detected user account creation using Event ID 4720
+- Detected account lockout using Event ID 4740
+- Detected account unlock using Event ID 4767
+- Reviewed alerts through Wazuh Threat Hunting
+
+### Wazuh Evidence Screenshots
+
+#### Wazuh Agents Active
+![Wazuh Agents Active](screenshots/13-wazuh-agents-desktop1-server2022-active.png)
+
+#### Wazuh Agent | 192. Failed Logon Event - 4625
+![Wazuh Failed Logon 4625](screenshots/15-wazuh-failed-logon-4625-filtered.png)
+
+#### User Account Created - 4720
+![Wazuh User Created 4720](screenshots/16-wazuh-user-created-4720.png)
+
+#### Account Lockout - 4740
+![Wazuh Account Lockout 4740](screenshots/17-wazuh-account-lockout-4740.png)
+
+#### Account Unlock - 4767
+![Wazuh Account Unlock 4767](screenshots/18-wazuh-account-unlocked-4767.png)
+
 ## Project Status
 Completed.
 
