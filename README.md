@@ -333,7 +333,7 @@ In this phase, Wireshark was used on Kali Linux to capture and analyze network t
 ---
 ## OpenVPN Remote Access VPN
 
-![OpenVPN client connected](openvpn-client-connected-status.png)
+![OpenVPN client connected](screenshots/openvpn-client-connected-status.png)
 
 OpenVPN Remote Access VPN successfully established — pfSense Status > OpenVPN 
 shows an active client session for "vpnuser" with a tunnel IP of 10.10.99.2, 
