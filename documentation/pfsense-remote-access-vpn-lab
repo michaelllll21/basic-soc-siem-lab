@@ -1,0 +1,5 @@
+OpenVPN Remote Access VPN successfully established — pfSense Status > OpenVPN 
+shows an active client session for "vpnuser" with a tunnel IP of 10.10.99.2, 
+confirming a working site-to-client VPN connection into the internal LAN 
+(192.168.10.0/24).
+
